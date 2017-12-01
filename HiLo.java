@@ -9,7 +9,7 @@ public class HiLo {
 		do {
 			// Create a random number for the user to guess
 			int theNumber = (int)(Math.random() * 100 + 1);
-			//System.out.println(theNumber);
+			//System.out.println(theNumber);	//Uncoment this in case we want to know the number (for testing).
 			int guess = 0;	//Number entered by the player
 			int count =0;	//Number of tries of guessing the number
 			while(guess != theNumber){
