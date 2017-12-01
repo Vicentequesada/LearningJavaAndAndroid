@@ -13,7 +13,6 @@ public class HiLo {
 			int guess = 0;	//Number entered by the player
 			int count =0;	//Number of tries of guessing the number
 			while(guess != theNumber){
-				
 				System.out.println("Guess a number between 1 and 100:");
 				guess = scan.nextInt();	//Reads the number typed on the keyboard by the player
 				count++;	//Plus 1 every time a number is entered
