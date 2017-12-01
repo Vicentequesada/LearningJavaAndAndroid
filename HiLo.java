@@ -1,3 +1,9 @@
+/*Coded by:
+ * 
+ * Author: Vicentequesada; 
+ * 
+ * Date: 30th November 2017;
+ */
 import java.util.Scanner;
 
 public class HiLo {
@@ -40,5 +46,3 @@ public class HiLo {
 		scan.close();	//Close scanner
 	}	//Close main
 }	//Close class
-
-
