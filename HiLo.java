@@ -27,7 +27,6 @@ public class HiLo {
 						System.out.println("Number of tries: " + count);
 					} else { // If both previous cases are false
 						System.out.println("Congratulations! You've found the number!");
-
 					}
 				} catch (Exception e) {		//Handle the exception (if the entrance is not a number)
 					System.out.println("Incorrect entering! Please enter a number between 1 and 100.");
